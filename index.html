@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/styles.css">
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <div class="card bg-color">
+            <img src="/img/subi.jpg" alt="sti">
+            <h1>Subaru Impreza STI</h1>
+
+            <div class="card-body">
+                <input type="number" placeholder="cantidad" id="Cantidad">
+                <input type="text" placeholder="Color" id="color">
+                <p>Precio: $14.000.000</p>
+            </div>
+
+            <div class="card-footer">
+                <button id="btn">
+                    Calcular Total
+                </button>
+            </div>
+        </div>
+        <div class="result">
+            <p>Total: <span id="total"></span></p>
+            <p>Cantidad: <span id="cantidad"></span></p>
+            <div class="color">
+                <p>Color: <span id="colorResult"></span></p>
+            </div>
+        </div>
+
+        <script src="/js/main.js"></script>
+    </body>
+</html>
+
